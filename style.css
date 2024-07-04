@@ -1,23 +1,16 @@
 /* style.css */
 
-/* Reset de estilos padrão */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, violet, #00ffff);
     color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center;
-    height: 100vh;
-    text-align: center;
-    line-height: 1.6;
+    min-height: 100vh;
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
 header {
@@ -25,41 +18,26 @@ header {
 }
 
 h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 2.5em;
 }
 
 p {
+    margin: 10px 0;
     font-size: 1.2em;
-    margin-bottom: 20px;
 }
 
-/* Estilo para botões */
-.button {
+/* Estilo para links botão */
+a.button {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 20px;
     text-decoration: none;
-    background-color: #00bfff; /* Azul claro */
-    color: #fff;
-    border: 2px solid #00bfff; /* Borda do mesmo tom do fundo */
-    border-radius: 30px; /* Bordas arredondadas */
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    font-size: 1em;
-    cursor: pointer;
-    margin: 10px;
+    background: linear-gradient(135deg, cyan, greeen);; /* Fundo gradiente */
+    color: white; /* Texto branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de cores */
+    margin: 10px; /* Espaçamento entre os botões */
 }
 
-.button:hover {
-    background-color: #0077b6; /* Azul mais escuro ao passar o mouse */
-    border-color: #0077b6; /* Borda mais escura ao passar o mouse */
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10px 0;
-    text-align: center;
-    color: #fff;
+a.button:hover {
+    background-color: #00e0e0; /* Fundo ciano mais claro ao passar o mouse */
 }
