@@ -26,17 +26,17 @@ p {
     font-size: 1.2em;
 }
 
-/* Estilo para links */
-a {
-    color: #4CAF50; /* Cor do texto do link */
-    text-decoration: none; /* Remove sublinhado padrão */
-    padding: 8px 16px;
+/* Estilo para links botão */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
     border-radius: 20px; /* Bordas arredondadas */
-    background-color: rgba(0, 0, 0, 0.1); /* Cor de fundo do link */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de cores */
 }
 
-a:hover {
-    background-color: #4CAF50; /* Cor de fundo do link ao passar o mouse */
-    color: white; /* Cor do texto do link ao passar o mouse */
+a.button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
 }
