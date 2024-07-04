@@ -73,7 +73,7 @@ a.button {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background: linear-gradient(135deg, green, #00ffff);
+    background: linear-gradient(135deg, cyan, red, pink);
     color: white; /* Texto branco */
     border-radius: 20px; /* Bordas arredondadas */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de cores */
