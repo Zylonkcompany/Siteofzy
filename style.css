@@ -31,12 +31,13 @@ a.button {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: black; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    background-color: #00ffff; /* Fundo ciano */
+    color: white; /* Texto branco */
     border-radius: 20px; /* Bordas arredondadas */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave de cores */
+    margin: 10px; /* Espaçamento entre os botões */
 }
 
 a.button:hover {
-    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
-}
+    background-color: #00e0e0; /* Fundo ciano mais claro ao passar o mouse */
+    }
