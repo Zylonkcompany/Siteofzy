@@ -45,7 +45,7 @@ a.button:hover {
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, violet, #00ffff);
+    background: linear-gradient(135deg, lime, cyan);
     color: #fff;
     display: flex;
     flex-direction: column;
